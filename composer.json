@@ -1,0 +1,19 @@
+{
+    "name": "proko/php_sprint_3",
+    "description": "Project management with entities",
+    "authors": [
+        {
+            "name": "sunshinepro",
+            "email": "74533174+sunshinepro@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.8"
+    },
+    "autoload": {
+        "psr-4":{
+            "Models\\": "src/models" 
+        }
+    }
+    
+}

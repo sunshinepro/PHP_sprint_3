@@ -1,0 +1,41 @@
+body, form, pre {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    background-color: linen;
+    font-size: 20px;
+  }
+  
+  table {
+      width:100%;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      border-collapse: collapse;
+      
+  }
+  th, td {
+      padding: 5px;
+      border: 1px solid black;
+      font-size: 18px;
+       }
+  
+  th{
+      background-color: rgb(201, 230, 201);
+    }
+  
+  tr:nth-child(even) {
+      background-color: linen;
+   }
+  tr:nth-child(odd) {
+      background-color: #fff;
+    }
+  button {
+    float: left;
+    background-color: linen; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-collapse: collapse;
+    margin-left: 15 px;
+  }
